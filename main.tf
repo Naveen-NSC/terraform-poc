@@ -3,7 +3,7 @@ provider "aws" {
   region  = "ap-south-1"
 }
 resource "aws_instance" "app_server" {
-  ami           = "ami-062df10d14676e201"
+  ami           = "ami-0e6329e222e662a52"
   instance_type = "t2.micro"
   key_name      = "naveen"
   vpc_security_group_ids = [
